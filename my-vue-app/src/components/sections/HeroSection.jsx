@@ -52,7 +52,7 @@ const HeroSection = () => {
         >
           {/* Place your chef photo in public/chef.png or import it */}
           <img
-            src="./assets/IMG_4515.PNG"
+            src="./assets/eee.jpg"
             alt="Chef"
             className="rounded-full w-72 h-72 object-cover z-10 border-4 border-orange-200 shadow-xl"
           />

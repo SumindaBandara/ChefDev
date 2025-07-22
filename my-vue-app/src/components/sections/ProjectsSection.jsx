@@ -1,5 +1,6 @@
 import React from 'react';
 import { projects } from '../../constants/projects';
+import { Link } from 'react-router-dom';
 
 const ProjectsSection = () => {
   return (
@@ -157,7 +158,7 @@ const ProjectsSection = () => {
                 Discover my complete portfolio including behind-the-scenes moments, team collaborations, and signature dish presentations
               </p>
               <button className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-orange-500 to-amber-500 text-white font-bold rounded-2xl hover:from-orange-600 hover:to-amber-600 transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:scale-105 group">
-                <span className="mr-3">View Full Gallery</span>
+                <span className="mr-3"> <Link to='/gallary'>View Full Gallery</Link></span>
                 <svg className="w-5 h-5 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
                 </svg>
